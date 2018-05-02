@@ -1,0 +1,349 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Contaminacion</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema4.min.css"/> 
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js" type="text/javascript"></script> -->
+<script src="phonegap.js"></script><!--necesario*/-->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/archivos/utilizacion.jpeg','imagenes/archivos/susticiom2.jpeg','imagenes/archivos/definicion2.jpg','imagenes/reciclaje2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Contaminacion</h1>
+	</div>
+	<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>contaminacion en el mundo</h1>
+    <div>
+    <center>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','imagenes/reciclaje2.jpg',1)"><img src="imagenes/reciclaje.jpg" width="259" height="194" id="Image38"></a>
+    </center>
+    </div>
+    <div data-role="collapsible" data-content-theme="false">
+    <center> <div>
+        	<img src="imagenes/comunidad.jpg" width="60%" height="60%">
+        </div>
+        <br>
+        <div>
+        	<img src="imagenes/comunidad1.jpg" width="60%" height="60%">
+        </div>
+        <br>
+        <div>
+        	<img src="imagenes/comunidad2.jpg" width="60%" height="60%">
+        </div>
+        <br>
+        <div>
+        	<img src="imagenes/comunidad3.jpg" width="60%" height="60%">
+        </div>
+        <br>
+        <div>
+        	<img src="imagenes/comunidad4.jpg" width="60%" height="60%">
+        </div>
+        </center>
+    <h1>Contaminación en mi comunidad:</h1>
+    </div>
+</div>
+</div>
+ <div>
+	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    	<li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Definicion de contaminación</h2>
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Tipos de contaminación</h2>
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Consecuencias</h2>
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>Reciclaje</h2>
+        	</a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        	<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        	<h2>5 Medidas para combatir la contaminación en el mundo</h2>
+        	</a>
+        </li>
+     </ul>
+	</div>
+ 	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+ 			<h4>Aplicacion Cuatro</h4>
+        	<h4>ITZEL ARISBETH SANTIZ PEREZ</h4>
+        </div>
+       </div>
+      </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>Contaminación</h1>
+     </div>
+     <div>
+<center> <h2><font color="white">¿Qué es la contaminación?</font></h2></center>
+<big><big>L</big></big>a contaminación es la presencia o acumulación de sustancias en el medio ambiente que afectan negativamente el entorno y las condiciones de vida, así como la salud o la higiene de los seres vivos.
+<br>
+La contaminación es la introducción de un agente contaminante, que puede ser líquido, sólido o gaseoso, y que por sus características químicas, cuando se adentra en un medio natural, causa su inestabilidad y daña el funcionamiento del ecosistema. De esta manera se afecta conllevando riesgos para los seres vivos que residen en él.
+<br>
+Los tipos de contaminantes, pueden variar, y a la vez dependen de la energía, sonido, calor o luz. Generalmente la contaminación es producto de la actividad del hombre y su técnica que interviene en la naturaleza.
+<br>
+Existe una clasificación que sirve a entender la prolongación de los efectos de los contaminantes, esta distingue a los contaminantes:
+<br>
+<ul type="disk">
+<li>No degradables: Son los que no se degradan con el tiempo. Generalmente, su grado de contaminación es constantes y general un gran perjuicio para el medio ambiente.</li>
+<li>De degradación lenta: Producen un alto grado de contaminación concentrada durante un periodo extenso, de años consecutivos, luego del cual decae.</li>
+<li>Biodegradables: Son los que son capaces de ser descompuestos naturalmente por las condiciones naturales y esto es producido por la acción de agentes biológicos vegetales u animales.</li>
+</ul>
+<div>
+<center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/archivos/definicion2.jpg',1)"><img src="imagenes/archivos/definicion3.jpg" width="60%" height="60%" id="Image8"></a> </div>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed"><center>
+    
+    <div>
+       <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    	<h4>Aplicacion Cuatro, SPIA </h4>
+    </div>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>Tipos de contaminación</h1>
+    </div>
+<div data-role="content" align="center">
+    <div data-role="content" align="left">
+<center><font color="white"><big><big>E</big></big>xisten diferentes tipos de contaminación dependiendo del ámbito en que se produzcan las alteraciones de las condiciones normales para la vida.</font></center>
+<br>
+<ul type="disk">
+<li><i><big>C</big>ontaminación del agua:</i>
+La contaminación del agua es una modificación o alteración del agua que tiene consecuencias negativas en el medio ambiente y en los seres vivos. También se utiliza el concepto de contaminación hídrica. El ser humano es el principal responsable de la contaminación del agua, especialmente a través del vertido de aguas residuales, que no han sido tratadas y que proceden de actividades como la industria, la ganadería y la agricultura, en dicho medio. Se pueden distinguir tres tipos de agentes contaminantes del agua: físicos, químicos y biológicos.
+<br>
+<br>
+	<div>
+<center><img src="imagenes/archivos/agua.jpg" width="60%" height="60%"></center>
+    </div>
+</li>
+<li><i><big>C</big>ontaminación del aire:</i>
+La contaminación del aire es la existencia de partículas sólidas, líquidas y gases perjudiciales para los seres vivos y el entorno. En ocasiones, se utilizan términos semejantes como contaminación atmosférica. La contaminación del aire puede provocar graves problemas de salud a través de la inhalación de sustancias tóxicas. Puede proceder de fuentes naturales como, por ejemplo, la erupción de un volcán, o de la acción del ser humano. Algunas de estas sustancias contaminantes del aire son el monóxido de carbono, el ozono y el metano. El smog, una especie de niebla formada por una mezcla de humo y partículas en suspensión, es una evidencia de la contaminación del aire en las ciudades industriales.
+<br>
+<br>
+	<div>
+<center><img src="imagenes/archivos/aire.jpg" width="60%" height="60%"></center>
+    </div>
+</li>
+<br>
+<li><i><big>C</big>ontaminación del suelo:</i>
+La contaminación del suelo es la presencia de sustancias que afectan negativamente las características y propiedades del suelo y que provocan desequilibrios físicos, químicos y biológicos que afectan de forma negativa a los seres vivos y el entorno. El suelo se puede contaminar por influencia del aire o del agua, que introduce agentes contaminantes, pero también al acumular o arrojar sustancias nocivas como los fertilizantes. Algunas consecuencias considerables de la contaminación del suelo son el aumento de la erosión y la disminución de la fertilidad del terreno.
+<br>
+<br>
+	<div>
+<center><img src="imagenes/archivos/suelo.jpg" width="60%" height="60%"></center>
+    </div>
+</li>
+<li><i><big>C</big>ontaminación visual:</i>
+La contaminación visual es la modificación de un entorno producida por la existencia de uno o varios elementos, cuya presencia impide o perjudica la visibilidad o afecta negativamente la estética de un lugar. La contaminación visual puede tener consecuencias perjudiciales para la salud, como el estrés. Algunos ejemplos de contaminación visual son la acumulación de carteles publicitarios en las carreteras o espacios urbanos, o la construcción de edificios en zonas protegidas.
+<br>
+<br>
+	<div>
+<center><img src="imagenes/archivos/visual.jpg" width="60%" height="60%"></center>
+    </div>
+</li>
+<li><i><big>C</big>ontaminación acústica:</i>
+Como contaminación acústica o sonora se conoce aquella que se produce como consecuencia de las alteraciones que causa el exceso de sonido en las condiciones normales del medio ambiente. La contaminación sonora puede ser provocada por una multitud de actividades humanas, como las asociadas a la industria, la construcción, el comercio, el entretenimiento, el tráfico o los aviones. El ruido excesivo o molesto puede llegar a ser perjudicial para la salud auditiva, física y mental de las personas, así como para la calidad de vida en general y, en consecuencia, debe estar sometida a control.
+<br>
+<br>
+	<div>
+<center><img src="imagenes/archivos/acustica.jpg" width="60%" height="60%"></center>
+    </div>
+</li>
+</ul>
+<br>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   	<div>
+    	<img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+        <h4>Aplicacion Cuatro, SPIA</h4>
+   </div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>Consecuencias</h1>
+     </div>
+     	<div data-role="content" align="center">
+     	</div>		
+ <div data-role="content" align="left">
+<center><font color="white"><big><big>C</big></big>onsecuencias de la contaminación</font></center> 
+<br>
+<br>
+Efectos de la contaminación en los seres humanos, el clima, la flora y la fauna
+Consecuencias para los seres humanos
+En países europeos, por ejemplo, cerca de 20.000 personas mueren cada año a causa de la contaminación ambiental. Esto se debe principalmente a la emisión de gases contaminantes tóxicos en el ambiente que causan irritación en los ojos y problemas en las vías respiratorias, además de fatigas, migradas y una serie de enfermedades cardiovasculares. ¿Cómo sucede esto? Pues bien, debido a la emisión, las partículas de humo y polvo que yacen en el aire, ingresan al cuerpo y se alojan en los pulmones, donde empiezan a producir daños graves.
+<br>
+Los principales afectados son los ancianos, los niños y personas que tienen problemas respiratorios, aunque, es posible que las demás personas puedan resultar igualmente afectadas. En otros casos, personas que no tienen acceso a agua potable o cocinan con estufas de combustión de carbón o leña también podrían verse afectadas.
+<br>
+Consecuencias en el clima y el ambiente
+La presencia de CO2 en la atmósfera provoca la emisión de concentraciones excesivas que aumentan las posibilidades de aparición del efecto invernadero. Además de las alteraciones que provoca en el clima con los fenómenos metereológicos, es también capaz de impedir la siembra en secciones del suelo donde residen agentes contaminados.
+<br>
+En otros, la contaminación creada a partir de la deforestación, es uno de los principales causantes de la contaminación de los suelos.
+<br>
+Contaminación de la flora y la fauna
+En el caso de las plantas, las consecuencias de la contaminación ambiental pueden reflejarse en el crecimiento y la imposibilidad de adaptación a las condiciones del ambiente, debido a los efectos negativos que produce la contaminación en el aire y el agua, agentes esenciales para sus procesos naturales. Este hecho ha permitido la desaparición de algunas plantas.
+<br>
+En cuanto a la fauna, es decir, los animales, debido a las alteraciones que ha sufrido el ambiente a causa de la contaminación ambiental, muchos han perdido sus fuentes de alimentos, además de la poca agua natural que existe por la contaminación a este agente. Esta acción provocada por el hombre, principalmente, ha llevado a que muchas especies entren a la larga lista de animales que se encuentran en peligro de extinción.
+<br>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/visor1.jpg" alt="contaminacion" title="contaminacion" id="wows1_0"/></li>
+		<li><img src="data1/images/visor2.jpg" alt="contaminacion" title="contaminacion" id="wows1_1"/></li>
+		<li><img src="data1/images/visor3.jpg" alt="contaminacion" title="contaminacion" id="wows1_2"/></li>
+		<li><img src="data1/images/visor4.jpg" alt="contaminacion" title="contaminacion" id="wows1_3"/></li>
+		<li><img src="data1/images/visor5.jpg" alt="contaminacion" title="contaminacion" id="wows1_4"/></li>
+		<li><img src="data1/images/visor6.jpg" alt="contaminacion" title="contaminacion" id="wows1_5"/></li>
+		<li><img src="data1/images/visor7.jpg" alt="contaminacion" title="contaminacion" id="wows1_6"/></li>
+		<li><img src="data1/images/visor8.jpg" alt="contaminacion" title="contaminacion" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/visor9.jpg" alt="bootstrap carousel" title="contaminacion" id="wows1_8"/></a></li>
+		<li><img src="data1/images/visor10.jpg" alt="contaminacion" title="contaminacion" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor1.jpg" alt="contaminacion"/>1</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor2.jpg" alt="contaminacion"/>2</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor3.jpg" alt="contaminacion"/>3</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor4.jpg" alt="contaminacion"/>4</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor5.jpg" alt="contaminacion"/>5</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor6.jpg" alt="contaminacion"/>6</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor7.jpg" alt="contaminacion"/>7</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor8.jpg" alt="contaminacion"/>8</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor9.jpg" alt="contaminacion"/>9</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/visor10.jpg" alt="contaminacion"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ 		</div>
+	</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+       <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    	<h4>Aplicacion Cuatro, SPIA</h4>
+    </div>
+ </div>
+ </div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>Reciclaje</h1>
+    </div>
+	<div data-role="content" align="center">
+	</div>
+     <div data-role="content" align="left">
+ <center><font color="white"><big><big>IMPORTANCIA DE LAS TRES R</big></big></font></center>
+<p>Para satisfacer las necesidades de la población mundial, todos los dias se <i>consume</i> gran cantidad de recursos, sin
+tener encuenta  los ciclos naturales que la tierra necesita para recuperarse.</p>
+Por ello debemos tomar encuenta las tres r
+<br>
+<ul type="disk">
+<li>Reutilizar:consiste en usar varias veces y de diferentes maneras un producto o partes de este 
+</li>
+<li>Reducir:consumir ciertos productos con moderación de modo que se eviten desechos.
+</li>
+<li>Reciclar:proceso industrial en el que se obtienen materias primas a partir de desechos.
+</li>
+<div>
+    <center><img src="imagenes/reciclaje1.jpg" width="60%" heignt="60%"></center>
+    </div>
+</ul>
+<p>ver mas:<a href="http://www.inforeciclaje.com/que-es-reciclaje.php" target="_self">http://www.inforeciclaje.com/que-es-reciclaje.php</a>
+<br>
+</p>
+<br>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+    	<img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div
+        ><h4>Aplicacion Cuatro, SPIA</h4>
+ </div>
+ </div>
+</div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ 	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>5 Medidas para combatir la contaminación</h1>
+    </div>
+	<div data-role="content" align="left">
+     <div>
+     <center><font color="white"> </font></center>
+     <big><big>M</big></big>edidas para combatir la contaminación
+<ul type="disk">
+<li>Crear conciencia ciudadana.</li>
+<li>No quemar ni talar plantas.</li>
+<li>Colocar la basura en los lugares apropiados.</li>
+<li>Regular el servicio de aseo urbano.</li>
+<li>Controlar el uso de fertilizantes y pesticidas.</li>
+<li>Crear vías de desagüe para las industrias que no lleguen a los mares o ríos utilizados para el servicio o consumo del ser humano o de los animales.</li>
+<li>Controlar los derrames accidentales de petróleo.</li>
+<li>Controlar los relaves mineros.</li>
+<li>Reciclar objetos (darles un nuevo uso).</li>
+<li>Tomar y generar conciencia de lo que está sucediendo.</li>
+<li>Realizar campañas de apoyo.</li>
+<li>Evitar el uso de aerosoles.</li>
+<li>Tener sentido de responsabilidad.</li>
+</ul>
+<div>
+    	<img src="imagenes/prevenir.png" width="60%" height="60%">
+    </div>
+     <br>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   	<div>
+    	<img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+        <h4>Aplicacion Cuatro, SPIA</h4>
+    </div>
+   </div>
+</div>
+</body>
+</html>
